@@ -525,4 +525,6 @@ int vdpau_init(AVCodecContext *s);
 int dxva2_init(AVCodecContext *s);
 int vda_init(AVCodecContext *s);
 
+int callMain(int argc, char **argv);
+
 #endif /* FFMPEG_H */

@@ -3894,3 +3894,8 @@ int main(int argc, char **argv)
     exit_program(received_nb_signals ? 255 : main_return_code);
     return main_return_code;
 }
+
+int call_main(int argc, char **argv)
+{
+    main(argc,  argv);
+}
